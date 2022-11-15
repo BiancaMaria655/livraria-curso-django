@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "livraria"
+version = "0.1.0"
+description = ""
+authors = ["BiancaMaria655 <biancasouza.maria@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.1.3"
+gunicorn = "^20.1.0"
+whitenoise = "^6.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
