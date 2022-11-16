@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-eb40c$c(2&(zu_*n_+pouf8$r35np(b^k91p(z!!wsub46owdv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["livraria-com-django.herokuapp.com"]
+ALLOWED_HOSTS = ["livraria-com-django.herokuapp.com","127.0.0.1"]
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'core',
 ]
 
